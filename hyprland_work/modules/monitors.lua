@@ -7,7 +7,7 @@ hl.monitor({
     output   = "DP-1",
     mode     = "preferred",
     position = "auto",
-    scale    = "1.25",
+    scale    = "1",
 })
 
 hl.monitor({
@@ -18,14 +18,14 @@ hl.monitor({
 })
 
 -- Workspaces 1-5 on main monitor
-hl.workspaces_rules({workspaces = "1", monitor = "DP-1", persistent  = true })
-hl.workspaces_rules({workspaces = "2", monitor = "DP-1", persistent  = true })
-hl.workspaces_rules({workspaces = "3", monitor = "DP-1", persistent  = true })
-hl.workspaces_rules({workspaces = "4", monitor = "DP-1", persistent  = true })
-hl.workspaces_rules({workspaces = "5", monitor = "DP-1", persistent  = true })
+hl.workspace_rule({workspace = "1", monitor = "DP-1", persistent  = true })
+hl.workspace_rule({workspace = "2", monitor = "DP-1", persistent  = true })
+hl.workspace_rule({workspace = "3", monitor = "DP-1", persistent  = true })
+hl.workspace_rule({workspace = "4", monitor = "DP-1", persistent  = true })
+hl.workspace_rule({workspace = "5", monitor = "DP-1", persistent  = true })
 
-hl.workspaces_rules({workspaces = "6", monitor = "eDP-1", persistent  = true })
-hl.workspaces_rules({workspaces = "7", monitor = "eDP-1", persistent  = true })
-hl.workspaces_rules({workspaces = "8", monitor = "eDP-1", persistent  = true })
-hl.workspaces_rules({workspaces = "9", monitor = "eDP-1", persistent  = true })
-hl.workspaces_rules({workspaces = "10", monitor = "eDP-1", persistent  = true })
+hl.workspace_rule({workspace = "6", monitor = "eDP-1", persistent  = true })
+hl.workspace_rule({workspace = "7", monitor = "eDP-1", persistent  = true })
+hl.workspace_rule({workspace = "8", monitor = "eDP-1", persistent  = true })
+hl.workspace_rule({workspace = "9", monitor = "eDP-1", persistent  = true })
+hl.workspace_rule({workspace = "10", monitor = "eDP-1", persistent  = true })
