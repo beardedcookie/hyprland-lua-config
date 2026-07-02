@@ -1,1 +1,1 @@
-# arch-hyprland
+# hyprland-lua-config
